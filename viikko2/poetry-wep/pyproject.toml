@@ -1,18 +1,17 @@
 [tool.poetry]
-name = "ohtuvarasto"
+name = "poetry-wep"
 version = "0.1.0"
 description = ""
-authors = ["Matti Luukkainen"]
+authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+flask = "^3.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.4.2"
-coverage = "^7.3.2"
-pylint = "^3.0.2"
+pytest = "^7.4.3"
 
 [build-system]
 requires = ["poetry-core"]

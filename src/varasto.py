@@ -1,4 +1,11 @@
+"""
+Tämä on todella täkeä varastonhallinta ohjelma. Harjoitus 3.
+"""
+
 class Varasto:
+    """
+        Tämä luokka tekee sitä ja tätä. Harjoitus 3.
+    """
     def __init__(self, tilavuus, alku_saldo = 0):
         if tilavuus > 0.0:
             self.tilavuus = tilavuus
@@ -18,9 +25,15 @@ class Varasto:
 
     # huom: ominaisuus voidaan myös laskea. Ei tarvita erillistä kenttää viela_tilaa tms.
     def paljonko_mahtuu(self):
+        """
+            No paljonko. Harjoitus 3.
+        """
         return self.tilavuus - self.saldo
 
     def lisaa_varastoon(self, maara):
+        """
+            Tässä sitten lisäillään. Harjoitus 3.
+        """
         if maara < 0:
             return
         if maara <= self.paljonko_mahtuu():
@@ -29,6 +42,9 @@ class Varasto:
             self.saldo = self.tilavuus
 
     def ota_varastosta(self, maara):
+        """
+            Tässä sitten otetaan varastosta. Harjoitus 3.
+        """
         if maara < 0:
             return 0.0
         if maara > self.saldo:

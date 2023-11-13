@@ -1,7 +1,17 @@
+"""
+    Tässä ajetaan tätä todella tärkeää ohjelmaa. Harjoitus 3.
+"""
 from varasto import Varasto
 
 
+
 def main():
+
+    """
+     Tässä ajetaan tätä todella tärkeää ohjelmaa. Harjoitus 3.
+    """
+
+
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
 
